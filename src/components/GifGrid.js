@@ -5,7 +5,7 @@ import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ({ category }) => {
     const {data:images, loading} = useFetchGifs(category);
-    
+    console.log('images >>>', images);
     
     return (
         <>
@@ -21,7 +21,6 @@ export const GifGrid = ({ category }) => {
                         />
                     )
                 }
-                <button></button>
             </div>
         </>
     )

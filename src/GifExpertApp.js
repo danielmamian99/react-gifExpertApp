@@ -3,14 +3,9 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp =  () => {
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['ONE PUNCH']);
     
-    /* const handleAdd = () =>{
-        // manera simple de hacerlo
-        //setCategories( [...categories,'HunterxHunter']);
-        setCategories( cates => [...cates, 'HunterxHunter']);
-    }; 
- */
+
     return (
         <>
             <h2>GifExpertApp </h2>
